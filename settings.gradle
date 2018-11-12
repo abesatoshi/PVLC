@@ -1,2 +1,3 @@
-include ':app','..:color_sensor:libs:PhysicaloidLibrary'
+include ':app', ':PhysicaloidLibrary'
 
+project(':PhysicaloidLibrary').projectDir = new File('app/libs/PhysicaloidLibrary')
